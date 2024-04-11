@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Journal App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+        
+     </div>
+
+    <h1>JOURNAL DAILY AND TRACK YOUR MOOD!</h1>
+    <h2>let's get started</h2>
+    <form id="journal-form">
+        <select id="Week-selector">
+            <option value="1">Week 1</option>
+            <option value="2">Week 2</option>
+            <option value="3">Week 3</option>
+        </select>
+
+        <select id="day-selector"> 
+            <option value="1">Monday</option> 
+            <option value="2">Tuesday</option> 
+            <option value="3">Wednesday</option> 
+            <option value="4">Thursday</option> 
+            <option value="5">Friday</option>
+            <option value="6">Saturday</option>
+            <option value="7">Sunday</option>
+        </select>
+        <h4>How do you feel today?</h4>
+                <select id="mood" name="mood">
+            <option value="happy">Happy</option>
+                <option value="sad">Sad</option>
+                <option value="angry">Angry</option>
+                <option value="irritated">Irritated</option>
+                <option value="nostalgic">Nostalgic</option>
+                <option value="anxious">Anxious</option>
+                <option value="excited">Excited</option>
+                <option value="stressed">Stressed</option>
+                <option value="hangover">Hangover</option>
+            </select>
+        </div>
+
+        <h5>Write a little about your day!</h5>
+        <div class="journal-entry">
+            <label for="entry">Journal Entry:</label>
+            <textarea id="entry" name="entry" class="journal-textarea" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Submit</button>
+
+        <h5>Have a quote</h5>
+        <div class="quote">
+            <button type="button" id="quote">Quote</button>
+        </div>
+
+        
+    <script src="index.js"></script>
+
+
+    
+
+
+    
+</body>
+</html>
