@@ -1,0 +1,33 @@
+body {
+    font-size: larger;
+    font-family: cursive;
+    background-color: #cfa093;
+    margin-left: 35px;
+    }
+    
+    nav {
+        background-color: #5e5e5e;
+        width: 100%;
+        padding: 10px 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+    
+    }
+    
+    .dropdownbtn {
+        background-color: #5e5e5e;
+        color: bisque;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .dropdown-content {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
